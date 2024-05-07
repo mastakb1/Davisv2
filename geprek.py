@@ -2,6 +2,11 @@ import pandas as pd
 import plotly.express as px
 import streamlit as st
 
+# Title
+st.title('Analisis Data Film Pada Aplikasi Netflix')
+st.write('## Akbar Izdihar, 20082010144')
+
+
 # Load the CSV file from GitHub
 df = pd.read_csv('netflix_titles.csv', encoding='latin1')
 # Convert release_year to datetime
