@@ -3,7 +3,7 @@ import plotly.express as px
 import streamlit as st
 
 # Load the CSV file from GitHub
-df = pd.read_csv('geprek.csv')
+df = pd.read_csv('netflix_titles.csv')
 
 # Convert release_year to datetime
 df['release_year'] = pd.to_datetime(df['release_year'], format='%Y')
