@@ -8,3 +8,4 @@ pandas-datareader
 numpy
 datetime
 openpyxl
+translators
