@@ -9,3 +9,5 @@ numpy
 datetime
 openpyxl
 translators
+pyttsx3
+time
